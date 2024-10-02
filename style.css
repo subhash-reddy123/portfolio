@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin:0 ;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'outfil';
+    background-color:linear-gradient(#ffdad5,#826dbd);
+}
+.contact-container{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contact-left{
+    display: contents;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.contact-left-title h2>{
+font-family: 600;
+color: aquamarine;
+font-size: 40px;
+margin-bottom: 5px;
+}
+.contact-left-title hr{
+    border:none
+    width: 50px;
+    height: 5px;
+    border-color: #a36aaa;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.contact-inputs:{
+width: 400px;
+height: 50px;
+border: none;
+outline: none;
+padding-left: 25px;
+font-weight: 500;
+color: #666;
+border-radius: 50px;
+}
